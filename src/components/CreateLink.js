@@ -41,7 +41,7 @@ class CreateLink extends React.Component {
         url
       }
     })
-    this.props.history.push('/')
+    this.props.history.push('/') // Upon submit form, this directs back to home route
   }
 }
 
